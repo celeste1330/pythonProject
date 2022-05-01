@@ -4,9 +4,8 @@ Library     SeleniumLibrary
 
 *** Test Cases ***
 open facebook
-
     [Documentation]  This is a basics about whole suite
-    [Tags]  Smoke
+    [Tags]  Functional
    open Browser      http://www.facebook.com  chrome
    close Browser
 
